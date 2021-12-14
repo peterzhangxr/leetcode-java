@@ -1,3 +1,5 @@
+//https://leetcode-cn.com/problems/JFETK5/
+//https://leetcode-cn.com/problems/add-binary/
 public class Offer002 {
     public static String addBinary(String a, String b) {
         StringBuilder builder = new StringBuilder();
