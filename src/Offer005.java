@@ -1,4 +1,4 @@
-public class Offer05 {
+public class Offer005 {
     public int maxProduct (String[] words) {
         int max = 0;
         int[] flags = new int[words.length];
