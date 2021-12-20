@@ -14,7 +14,7 @@ public class Offer14 {
         }
         for (int i = s1.length(); i < s2.length();i++) {
             counts[s2.charAt(i) - 'a']--;
-            counts[s2.charAt(i) - s1.length() - 'a']++;
+            counts[s2.charAt(i - s1.length()) - 'a']++;
             if (isAllZero(counts)) {
                 return true;
             }
